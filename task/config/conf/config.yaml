@@ -1,0 +1,20 @@
+server:
+  domain: task
+  version: 1.0
+  jwtSecret: wzj
+  grpcAddress: "127.0.0.1:10002"
+
+mysql:
+  host: "127.0.0.1"
+  username: root
+  password: 981122wzj
+  port: "3306"
+  database: go_todolist
+  charset: utf8mb4
+
+etcd:
+  address: 127.0.0.1:2379
+
+redis:
+  address: 127.0.0.1:6379
+  password:
